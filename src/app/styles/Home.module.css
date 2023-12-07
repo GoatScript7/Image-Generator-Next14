@@ -1,0 +1,132 @@
+@font-face {
+  font-family: Proto Mono;
+  src: url("../../../public/fonts/ProtoMono-Medium.ttf");
+}
+
+.container {
+  font-family: "Proto Mono", Helvetica, Arial, sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.884),
+      rgba(255, 255, 255, 0)
+    ),
+    url(../../../public/assets/bg5.jpg);
+  font-family: "Proto Mono", Helvetica, Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: rgba(8, 4, 4, 0.6);
+  backdrop-filter: blur(10px);
+  color: #929292;
+  display: flex;
+  flex: 1 1 100%;
+  font-size: 0.7rem;
+  height: 4rem;
+  position: fixed;
+  transition: all 0.5s ease 0s;
+  width: 100%;
+  z-index: 100;
+  padding: 0 14rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 3rem;
+}
+
+.nav_items {
+  display: flex;
+  justify-content: space-evenly;
+  width: 17rem;
+  cursor: pointer;
+}
+
+.nav_items > p:hover {
+  color: #ffffff;
+}
+
+.link:hover {
+  color: #ffffff;
+}
+
+.searchSection {
+  display: flex;
+  color: #929292;
+  font-size: 1rem;
+  width: 22rem;
+  height: 2.25rem;
+  align-items: center;
+  padding: 0.2rem;
+  margin-left: -10rem;
+  border: 1px solid #9292928b;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.searchSection > section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 20rem;
+  height: 2.25rem;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.inputField {
+  display: flex;
+  width: 90%;
+  color: rgb(217, 217, 217);
+  background: none;
+  font-size: 0.8rem;
+  padding-left: 0.2rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: "Proto Mono", Helvetica, Arial, sans-serif;
+}
+
+.generate_btn {
+  color: #fff;
+  background-color: #2ecc71;
+  width: 10rem;
+  height: 2.5rem;
+  font-size: 0.85rem;
+  border: none;
+  border-radius: 0.2rem;
+  outline: none;
+  font-family: "Proto Mono", Helvetica, Arial, sans-serif;
+  margin-right: 16px;
+}
+
+.user_button {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  margin: 10px;
+  width: 200px;
+}
